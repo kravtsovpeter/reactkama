@@ -1,19 +1,20 @@
+import styles from '../styles/Navbar.module.css'
 const Navbar = () => {
-    return (<nav className="nav">
+    return (<nav className={styles.nav}>
         <div>
-            <a href="http://ya.ru">Profile</a>
+            <a className={styles.item} href="http://ya.ru">Profile</a>
         </div>
         <div>
-            <a href="http://ya.ru">Messages</a>
+            <a className={`${styles.item} ${styles.active}`} href="http://ya.ru">Messages</a>
         </div>
         <div>
-            <a href="http://ya.ru">News</a>
+            <a className={styles.item} href="http://ya.ru">News</a>
         </div>
         <div>
-            <a href="http://ya.ru">Music</a>
+            <a className={styles.item} href="http://ya.ru">Music</a>
         </div>
         <div>
-            <a href="http://ya.ru">Settings</a>
+            <a className={styles.item} href="http://ya.ru">Settings</a>
         </div>
     </nav>);
 }

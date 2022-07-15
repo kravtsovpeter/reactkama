@@ -1,0 +1,19 @@
+.nav {
+    grid-area: nav;
+    background-color: blanchedalmond;
+}
+
+.item
+{
+    color: blue;
+}
+
+.item:hover
+{
+    font-weight: bolder;
+}
+
+
+.active {
+    font-weight: bold;
+}
