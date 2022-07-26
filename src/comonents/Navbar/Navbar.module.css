@@ -1,19 +1,17 @@
 .nav {
     grid-area: nav;
     background-color: blanchedalmond;
+    padding: 20px;
 }
 
 .item
 {
     color: blue;
+    text-decoration: none;
 }
 
-.item:hover
-{
-    font-weight: bolder;
-}
-
-
-.active {
+.item_act {
+    color: blue;
     font-weight: bold;
+    text-decoration: none;
 }

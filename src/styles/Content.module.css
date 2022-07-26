@@ -1,9 +1,0 @@
-.content {
-    grid-area: content;
-    background-color: azure;
-}
-
-.item {
-    color: darkmagenta;
-    font-weight: bold;
-}
